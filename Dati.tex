@@ -14,11 +14,11 @@
 \newcommand{\dataApprovazione}{Data}
 
 % Dati dello Studente
-\newcommand{\nomeStudente}{Pinco}
-\newcommand{\cognomeStudente}{Pallino}
-\newcommand{\matricolaStudente}{1000000}
-\newcommand{\emailStudente}{mail@studenti.unipd.it}
-\newcommand{\telStudente}{+ 39 000 00 00 000}
+\newcommand{\nomeStudente}{NIcolò}
+\newcommand{\cognomeStudente}{Trinca}
+\newcommand{\matricolaStudente}{2011070}
+\newcommand{\emailStudente}{nicolo.trinca@studenti.unipd.it}
+\newcommand{\telStudente}{+ 39 392 74 20 300}
 
 % Dati del Tutor Aziendale
 \newcommand{\nomeTutorAziendale}{nomeTutor}
@@ -28,57 +28,62 @@
 \newcommand{\ruoloTutorAziendale}{}
 
 % Dati dell'Azienda
-\newcommand{\ragioneSocAzienda}{Azienda S.p.A}
-\newcommand{\indirizzoAzienda}{Via Roma 1, Roma (RM)}
-\newcommand{\sitoAzienda}{http://example.com/}
+\newcommand{\ragioneSocAzienda}{FASHION BOX S.p.A}
+\newcommand{\indirizzoAzienda}{Via Marcoai, 1 – Asolo (TV)}
+\newcommand{\sitoAzienda}{www.replayjeans.com }
 \newcommand{\emailAzienda}{mail@mail.it}
-\newcommand{\partitaIVAAzienda}{P.IVA 12345678999}
+\newcommand{\partitaIVAAzienda}{P.IVA IT03676290269}
 
 % Dati del Tutor Interno (Docente)
-\newcommand{\titoloTutorInterno}{Prof.}
-\newcommand{\nomeTutorInterno}{NomeDocente}
-\newcommand{\cognomeTutorInterno}{CognomeDocente}
+\newcommand{\titoloTutorInterno}{Prof.Lamberto Ballan}
+\newcommand{\nomeTutorInterno}{Lamberto}
+\newcommand{\cognomeTutorInterno}{Ballan}
 
 \newcommand{\prospettoSettimanale}{
-     % Personalizzare indicando in lista, i vari task settimana per settimana
-     % sostituire a XX il totale ore della settimana
+    % Personalizzare indicando in lista, i vari task settimana per settimana
+    % sostituire a XX il totale ore della settimana
     \begin{itemize}
-        \item \textbf{Prima Settimana (XX ore)}
-        \begin{itemize}
-            \item Incontro con persone coinvolte nel progetto per discutere i requisiti e le richieste
-            relativamente al sistema da sviluppare;
-            \item Verifica credenziali e strumenti di lavoro assegnati;
-            \item Presa visione dell’infrastruttura esistente;
-            \item Formazione sulle tecnologie adottate;
-        \end{itemize}
-        \item \textbf{Seconda Settimana - Sottotitolo (XX ore)} 
-        \begin{itemize}
-            \item ;
-        \end{itemize}
-        \item \textbf{Terza Settimana - Sottotitolo (XX ore)} 
-        \begin{itemize}
-            \item ;
-        \end{itemize}
-        \item \textbf{Quarta Settimana - Sottotitolo (XX ore)} 
-        \begin{itemize}
-            \item ;
-        \end{itemize}
-        \item \textbf{Quinta Settimana - Sottotitolo (XX ore)} 
-        \begin{itemize}
-            \item ;
-        \end{itemize}
-        \item \textbf{Sesta Settimana - Sottotitolo (XX ore)} 
-        \begin{itemize}
-            \item ;
-        \end{itemize}
-        \item \textbf{Settima Settimana - Sottotitolo (XX ore)} 
-        \begin{itemize}
-            \item ;
-        \end{itemize}
-        \item \textbf{Ottava Settimana - Conclusione (XX ore)} 
-        \begin{itemize}
-            \item ;
-        \end{itemize}
+        \item \textbf{Prima Settimana (40 ore)}
+              \begin{itemize}
+                  \item Ambientamento azienda FASHION BOX S.p.A;
+                  \item Analisi problema e obiettivi;
+                  \item Presa visione dell’infrastruttura esistente;
+              \end{itemize}
+        \item \textbf{Seconda Settimana - Documentazione (40 ore)}
+              \begin{itemize}
+                  \item Documentazione sull argomento GAN;
+                  \item Analisi sull utilizzo di GAN per la generazione d immagini;
+              \end{itemize}
+        \item \textbf{Terza Settimana - Setup ambiente e framework (40 ore)}
+              \begin{itemize}
+                  \item Documentazione sull argomento GAN;
+                  \item Valutazione dei frameworks e delle tecnologie per l'implementazione di GAN;
+                  \item Installazione framework;
+              \end{itemize}
+        \item \textbf{Quarta Settimana - Preparazione dataset (40 ore)}
+              \begin{itemize}
+                  \item Raccogliere un dataset appropriato per l'addestramento del GAN;
+                  \item Preprocessare il dataset per adattarlo al formato richiesto dal framework;
+              \end{itemize}
+        \item \textbf{Quinta Settimana - Studio implementazioni (40 ore)}
+              \begin{itemize}
+                  \item Studio sulle implementazioni della rete generatrice (Generator) del GAN;
+                  \item Studio sulle implementazioni della rete discriminatrice (Discriminator) del GAN;
+              \end{itemize}
+        \item \textbf{Sesta Settimana - Sviluppo (40 ore)}
+              \begin{itemize}
+                  \item Sviluppo POC;
+              \end{itemize}
+        \item \textbf{Settima Settimana - Sviluppo e test(40 ore)}
+              \begin{itemize}
+                  \item Sviluppo POC;
+                  \item Test del modello GAN addestrato;
+              \end{itemize}
+        \item \textbf{Ottava Settimana - Conclusione (40 ore)}
+              \begin{itemize}
+                  \item Effettuare eventuali ottimizzazioni sulla rete generatrice e discriminatrice;
+                  \item Valutare le prestazioni del modello GAN addestrato;
+              \end{itemize}
     \end{itemize}
 }
 
@@ -86,19 +91,20 @@
 \newcommand{\totaleOre}{}
 
 \newcommand{\obiettiviObbligatori}{
-	 \item \underline{\textit{O01}}: primo obiettivo;
-	 \item \underline{\textit{O02}}: secondo obiettivo;
-	 \item \underline{\textit{O03}}: terzo obiettivo;
-	 
+    \item \underline{\textit{O01}}: Comprendere il funzionamento teorico dei GAN e le loro applicazioni per la generazione di immagini.;
+    \item \underline{\textit{O02}}: Sviluppare la capacità di autogestirsi e affrontare argomenti sull'argomento GAN attraverso l'autoformazione;
+    \item \underline{\textit{O03}}: Sviluppo di un POC dimostrativo;
+
 }
 
 \newcommand{\obiettiviDesiderabili}{
-	 \item \underline{\textit{D01}}: primo obiettivo;
-	 \item \underline{\textit{D02}}: secondo obiettivo;
+    \item \underline{\textit{D01}}: Implementazione di un modello GAN per la generazione di immagini funzionante;
+    \item \underline{\textit{D02}}: Generazione di immagini realistiche e coerenti con il dataset di addestramento
+    \item \underline{\textit{D03}}: Personalizzare il modello GAN per l'inserimento del brand "Replay" nelle immagini di output
 }
 
 \newcommand{\obiettiviFacoltativi}{
-	 \item \underline{\textit{F01}}: primo obiettivo;
-	 \item \underline{\textit{F02}}: secondo obiettivo;
-	 \item \underline{\textit{F03}}: terzo obiettivo;
+    \item \underline{\textit{F01}}: Ottimizzazione del modello GAN
+    \item \underline{\textit{F02}}: Valutare le prestazioni del modello GAN
+    \item \item \underline{\textit{F03}}: Test applicazione prodotto finale in ambito aziendale
 }
